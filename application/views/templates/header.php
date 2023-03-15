@@ -19,15 +19,15 @@
           <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">SHOP BY ME</a>
+        <a class="nav-link" href="<?= base_url('Shop/tambah'); ?>">shop</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">CONTACT US </a>
+        <a class="nav-link" href="<?= base_url('contact'); ?>">contact us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">TESTIMONIAL</a>
+        <a class="nav-link" href="<?= base_url('testimoni'); ?>">testimonial</a>
         <li class="nav-item">
-          <a class="nav-link disabled">Logout</a>
+        <a class="nav-link" href="<?= base_url('auth/logout'); ?>">Logout</a>
         </li>
       </ul>
     </div>
